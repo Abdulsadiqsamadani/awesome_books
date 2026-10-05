@@ -7,7 +7,7 @@
 body {
   font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
   color: #222;
-  background-color: #f8f9fa;
+  background: linear-gradient(45deg, black, transparent);
   padding: 1rem;
   max-width: 900px;
   margin: 0 auto;
@@ -100,7 +100,7 @@ header {
 }
 
 .book-item.even {
-  background-color: #f8f9fa;
+  background-color: #6a6f74;
 }
 
 .book-item span {
