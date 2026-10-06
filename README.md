@@ -68,7 +68,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Abdulsadiqsamdani/Awesome Books.git
+  git clone https://github.com/Abdulsadiqsamdani/awesome_Books.git
 ```
 
 ### Install
@@ -76,7 +76,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```
- No installation needed, open with a local web server (e.g. Live Server).
+npm install 
 ```
 
 ### Usage
@@ -84,7 +84,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```
- Double-click index.html or use a local server to preview
+ Open index.html with a local web server (e.g., Live Server in VS Code).
 ```
 
 ### Run tests
