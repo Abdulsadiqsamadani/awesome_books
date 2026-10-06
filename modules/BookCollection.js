@@ -1,3 +1,5 @@
+import { Book } from './Book.js';
+
 export class BookCollection {
   constructor() {
     this.books = JSON.parse(localStorage.getItem('books')) || [];
@@ -5,7 +7,7 @@ export class BookCollection {
 
   addBook = (title, author) => {
     if (!title || !author) return;
-    const newBook = { title, author, id: Date.now().toString() };
+    const newBook = new Book(title, author);
     this.books.push(newBook);
     this.saveAndRender();
   };
