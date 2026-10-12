@@ -1,4 +1,4 @@
-import { DateTime } from './luxon.js';
+import { DateTime } from 'luxon';
 
 export const displayCurrentDate = () => {
   const dateContainer = document.getElementById('date-display');
